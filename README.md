@@ -1,4 +1,6 @@
 # qcsh_qndxxlist
+<a href='https://github.com/chinazyq123/qcsh_qndxxlist'><img alt="GitHub stars" src="https://img.shields.io/github/stars/chinazyq123/qcsh_qndxxlist?logo=github"></a>
+[![Gitee stars](https://gitee.com/chinazyq/qcsh_qndxxlist/badge/star.svg?theme=dark)](https://gitee.com/chinazyq/qcsh_qndxxlist)  
 
 #### 介绍
 作为团支书，你是否为需要登录青春上海平台查看同学学习情况而苦恼？  
