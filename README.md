@@ -6,35 +6,23 @@
 可以实时手动更新的排行榜，未学习同学提醒名单自动生成~
 解放你的双手！！！
 
-#### 软件架构
-软件架构说明
-
-
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+1.  下载整个仓库，导入你的虚拟空间/服务器
+2.  创建好数据库或者用qndxx_mysql_data.sql导入
+3.  在所有access_token.php的account、password后面引号里面输入用户名、密码
+```
+$data = [
+    "account" => "",
+    "password" => "",
+    "captchaId" => $id,
+    "captcha" => $captcha
+];
+```
+4.  解放自我！
 
 
-#### 特技
+#### 说明
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+更多功能开发中。
+如有意见或者建议，欢迎提出！
