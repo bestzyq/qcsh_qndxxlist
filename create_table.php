@@ -1,11 +1,6 @@
 <?php
 // 连接到数据库
-$servername = "localhost"; // 数据库服务器名称
-$username = "qndxx"; // 数据库用户名
-$password = "qndxx"; // 数据库密码
-$dbname = "qndxx"; // 数据库名称
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+require_once 'config.php';
 
 // 检查连接是否成功
 if ($conn->connect_error) {

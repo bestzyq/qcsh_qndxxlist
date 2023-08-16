@@ -44,12 +44,7 @@ $result = json_decode($response, true);
 
 if ($result && isset($result['result']['accessToken'])) {
     $access_token = $result['result']['accessToken'];
-    $dbHost = 'localhost';
-    $dbName = 'qndxx';
-    $dbUsername = 'qndxx';
-    $dbPassword = 'qndxx';
-    // 建立数据库连接
-    $conn = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUsername, $dbPassword);
+    require_once 'config.php';
     // 清空数据表
     $truncateStmt = $conn->prepare("TRUNCATE TABLE access_tokens");
     $truncateStmt->execute();
