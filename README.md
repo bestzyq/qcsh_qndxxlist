@@ -21,7 +21,8 @@ $data = [
     "captcha" => $captcha
 ];
 ```
-4.  解放自我！
+4.  在config.php输入数据库信息
+5.  解放自我！
 
 
 #### 说明

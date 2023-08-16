@@ -1,11 +1,5 @@
 <?php
-$dbHost = 'localhost';
-$dbName = 'qndxx';
-$dbUsername = 'qndxx';
-$dbPassword = 'qndxx';
-
-// 创建数据库连接
-$conn = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUsername, $dbPassword);
+require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 
 // 清空time2数据表
 $truncateTime2TableSQL = "TRUNCATE TABLE time2";

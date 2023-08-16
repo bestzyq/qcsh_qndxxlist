@@ -1,11 +1,5 @@
 <?php
-$dbHost = 'localhost';
-$dbName = 'qndxx';
-$dbUsername = 'qndxx';
-$dbPassword = 'qndxx';
-
-// 创建数据库连接
-$conn = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUsername, $dbPassword);
+require_once 'config.php';
 
 // 清空 branch_data 表
 $truncateBranchDataStmt = $conn->prepare("TRUNCATE TABLE branch_data");

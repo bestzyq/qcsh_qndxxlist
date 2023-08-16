@@ -1,10 +1,5 @@
 <?php
-$dbHost = 'localhost';
-$dbName = 'qndxx';
-$dbUsername = 'qndxx';
-$dbPassword = 'qndxx';
-
-$conn = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUsername, $dbPassword);
+require_once 'config.php';
 
 // 清空courses表
 $clearStmt = $conn->prepare("TRUNCATE TABLE courses");

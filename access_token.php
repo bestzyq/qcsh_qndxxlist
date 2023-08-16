@@ -1,11 +1,6 @@
 <?php
 // 从数据库中获取 id 和 captcha
-$dbHost = 'localhost';
-$dbName = 'qndxx';
-$dbUsername = 'qndxx';
-$dbPassword = 'qndxx';
-
-$conn = new PDO("mysql:host=$dbHost;dbname=$dbName;charset=utf8", $dbUsername, $dbPassword);
+require_once 'config.php';
 $stmt = $conn->prepare("SELECT id, captcha FROM captcha ORDER BY id DESC LIMIT 1");
 $stmt->execute();
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
